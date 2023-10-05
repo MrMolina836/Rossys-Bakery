@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lora:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*                         Reusable Code                          */
+
+:root{
+    
+    --landing-title-color: #ffff;
+
+
+    --title-font: 'Dancing Script', cursive;
+    --body-font: "Lora", serif;
+
+
+    --landing-title-size: 5rem;
+    --body-font-size: 18px;
+    --smallest-body-size: 12px;
+    --h2-subtitle-size: 2rem;
+}
+
+/*                          General Code                            */
+
+.flex{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+.header__container{
+    height: 10vh;
+}
