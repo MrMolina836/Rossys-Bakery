@@ -131,3 +131,14 @@ a{
     font-size: var(--h2-subtitle-size);
     margin-bottom: 20px;
 }
+
+
+.slider__container{
+    max-width: 124rem;
+    margin: 0 1rem;
+    padding: 0 auto;
+}
+
+.text__center{
+    text-align: center;
+}

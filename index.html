@@ -1,69 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/c8e4d183c2.js"
       crossorigin="anonymous"
     ></script>
     <title>Rossy's Bakery</title>
-</head>
-<body>
-    <header class="header__container"id="landing__page">
-        <div class="nav__container flex">
-            <nav class="nav__menu flex">
-                <ul>
-                    <li>
-                        <a href="">Home</a>
-                    </li>
-                </ul>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header__container" id="landing__page">
+      <div class="nav__container flex">
+        <nav class="nav__menu flex">
+          <ul>
+            <li>
+              <a href="">Home</a>
+            </li>
+          </ul>
 
-                <ul>
-                    <li>
-                        <a href="">Products</a>
-                    </li>
-                </ul>
+          <ul>
+            <li>
+              <a href="">Products</a>
+            </li>
+          </ul>
 
-                <ul>
-                    <li>
-                        <a href="">Delivery</a>
-                    </li>
-                </ul>
+          <ul>
+            <li>
+              <a href="">Delivery</a>
+            </li>
+          </ul>
 
-                <ul>
-                    <li>
-                        <a href="">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
+          <ul>
+            <li>
+              <a href="">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
 
-            <div class="social__media-links">
-                <i class="fab fa-facebook icons"></i>
-                <i class="fab fa-instagram icons"></i>
-            </div>
+        <div class="social__media-links">
+          <i class="fab fa-facebook icons"></i>
+          <i class="fab fa-instagram icons"></i>
         </div>
+      </div>
     </header>
 
     <div class="landing__page">
-        <div class="landing__page-container flex">
-            <h1 class="landing__page-title">Rossy's Bakery</h1>
-            <p>242 E 3rd Street <br>
-            New York, NY 10009</p>
-        </div>
+      <div class="landing__page-container flex">
+        <h1 class="landing__page-title">Rossy's Bakery</h1>
+        <p>
+          242 E 3rd Street <br />
+          New York, NY 10009
+        </p>
+      </div>
     </div>
-    
+
     <section id="products">
-        <div class="products__container">
-            <h2>Our Product</h2>
-            <p>
-                Rossy and Norma have 20 years of experience  making beautiful and delicious cakes. 
-                She opened Rossy's Bakery & Coffee shop in the Lower East Side of Manhattan. Whether 
-                you live in New York City, or just visiting, this is a great place to go and indulge 
-                with great treats. 
-            </p>
+      <div class="products__container">
+        <h2>Our Product</h2>
+        <p>
+          Rossy and Norma have 20 years of experience making beautiful and
+          delicious cakes. She opened Rossy's Bakery & Coffee shop in the Lower
+          East Side of Manhattan. Whether you live in New York City, or just
+          visiting, this is a great place to go and indulge with great treats.
+        </p>
+      </div>
+
+      <div id="tranding">
+        <div class="slider__container">
+          <h2 class="text__center section__subheading">- Popular Cakes</h2>
+          <h1 class="text__center section__heading">Trending Food</h1>
         </div>
+
+        <div class="slider__container">
+          <div class="swiper tranding__slider">
+            <div class="swiper__wraper">
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="" alt="Tranding" />
+                </div>
+                <div class="tranding-slide-content">
+                  <h1 class="food-price">$20</h1>
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">Special Pizza</h2>
+                    <h3 class="food-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="" alt="Tranding" />
+                </div>
+                <div class="tranding-slide-content">
+                  <h1 class="food-price">$20</h1>
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">Special Pizza</h2>
+                    <h3 class="food-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="" alt="Tranding" />
+                </div>
+                <div class="tranding-slide-content">
+                  <h1 class="food-price">$20</h1>
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">Special Pizza</h2>
+                    <h3 class="food-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+            </div>
+            <div class="tranding-slider-control">
+              <div class="swiper-button-prev slider-arrow">
+                <ion-icon name="arrow-back-outline"></ion-icon>
+              </div>
+              <div class="swiper-button-next slider-arrow">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-</body>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
