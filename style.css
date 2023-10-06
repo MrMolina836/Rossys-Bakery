@@ -247,6 +247,7 @@ a{
     background: rgb(0, 0, 0);
     min-height: 20vh;
     padding: 2rem 30px;
+    color: #ffff;
 }
 
 .footer__container{
