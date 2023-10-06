@@ -11,7 +11,7 @@
     <title>Rossy's Bakery</title>
     <link
       rel="stylesheet"
-      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
   </head>
   <body>
@@ -21,6 +21,12 @@
           <ul>
             <li>
               <a href="">Home</a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="">About</a>
             </li>
           </ul>
 
@@ -59,118 +65,137 @@
         </p>
       </div>
     </div>
+    <section id="about">
+      <div class="about__container flex">
+        <div class="about__info flex">
+          <img src="./Photos/Rose Background.jpg" alt="" class="about__img" />
 
-    <section id="products">
-      <div class="products__container">
-        <h2>Our Product</h2>
-        <p>
-          Rossy and Norma have 20 years of experience making beautiful and
-          delicious cakes. She opened Rossy's Bakery & Coffee shop in the Lower
-          East Side of Manhattan. Whether you live in New York City, or just
-          visiting, this is a great place to go and indulge with great treats.
-        </p>
-      </div>
-
-      <div id="tranding">
-        <div class="slider__container">
-          <h2 class="text__center section__subheading">- Popular Cakes</h2>
-          <h1 class="text__center section__heading">Trending Food</h1>
-        </div>
-
-        <div class="slider__container">
-          <div class="swiper tranding__slider">
-            <div class="swiper__wraper">
-              <!-- Slide-start -->
-              <div class="swiper-slide tranding-slide">
-                <div class="tranding-slide-img">
-                  <img src="" alt="Tranding" />
-                </div>
-                <div class="tranding-slide-content">
-                  <h1 class="food-price">$20</h1>
-                  <div class="tranding-slide-content-bottom">
-                    <h2 class="food-name">Special Pizza</h2>
-                    <h3 class="food-rating">
-                      <span>4.5</span>
-                      <div class="rating">
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                      </div>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <!-- Slide-end -->
-              <div class="swiper-slide tranding-slide">
-                <div class="tranding-slide-img">
-                  <img src="" alt="Tranding" />
-                </div>
-                <div class="tranding-slide-content">
-                  <h1 class="food-price">$20</h1>
-                  <div class="tranding-slide-content-bottom">
-                    <h2 class="food-name">Special Pizza</h2>
-                    <h3 class="food-rating">
-                      <span>4.5</span>
-                      <div class="rating">
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                      </div>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <!-- Slide-end -->
-              <div class="swiper-slide tranding-slide">
-                <div class="tranding-slide-img">
-                  <img src="" alt="Tranding" />
-                </div>
-                <div class="tranding-slide-content">
-                  <h1 class="food-price">$20</h1>
-                  <div class="tranding-slide-content-bottom">
-                    <h2 class="food-name">Special Pizza</h2>
-                    <h3 class="food-rating">
-                      <span>4.5</span>
-                      <div class="rating">
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                      </div>
-                    </h3>
-                  </div>
-                </div>
-              </div>
-              <!-- Slide-end -->
-            </div>
-            <div class="tranding-slider-control">
-              <div class="swiper-button-prev slider-arrow">
-                <ion-icon name="arrow-back-outline"></ion-icon>
-              </div>
-              <div class="swiper-button-next slider-arrow">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
+          <div class="about__info-container">
+            <h2>About Us</h2>
+            <p>
+              Rossy and Norma have 20 years of experience making beautiful and
+              delicious cakes. She opened Rossy's Bakery & Coffee shop in the
+              Lower East Side of Manhattan. Whether you live in New York City,
+              or just visiting, this is a great place to go and indulge with
+              great treats.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <section id="products">
+      <div class="products__container">
+        <h2>Our Product</h2>
+        <p>
+          We specialize in Dominican style cakes for any occasion. Please stop
+          by our bakery today for a cafecito, empanada, or a delicious Dominican
+          homestyle cooked meal.
+        </p>
+      </div>
+
+      <div class="slider__container">
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="delivery">
+      <div class="delivery__container">
+        <h2>Delivery & Pickup Options</h2>
+        <p>
+          At our business, we understand the importance of choice and
+          flexibility when it comes to receiving your products. That's why we
+          offer a range of delivery and pickup options to suit your needs. You
+          can opt for our convenient doorstep delivery service, which ensures
+          your items are safely transported to your preferred address within the
+          promised timeframe. Alternatively, if you prefer a more hands-on
+          approach, we also provide a hassle-free pickup option at our
+          designated locations, allowing you to collect your purchases at your
+          convenience. We believe in putting our customers first and providing
+          them with the freedom to choose the delivery method that best suits
+          their lifestyle.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact__container flex">
+        <div class="contact__info">
+          <h3>Get in contact with us!</h3>
+          <div>
+            <p>
+              T: 212 253 2424 
+              F: 212 253 2441
+            </p>
+          </div>
+        </div>
+
+        <div class="contact__map">
+          <p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.8244009724167!2d-73.98413962397375!3d40.72188197139212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2597894a4874f%3A0x3a4cb0ccabb57914!2sRossy&#39;s%20Bakery%20%26%20Coffee%20Shop!5e0!3m2!1sen!2sus!4v1696613227136!5m2!1sen!2sus"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
     <script src="app.js"></script>
   </body>
 </html>
