@@ -24,8 +24,5 @@ for(let i = 0; i<list.length; i++){
 }
 
 
-if(window.innerHeight > window.innerWidth){     
-    document.getElementsByTagName("body")[0].style.transform = "rotate(90deg)"; 
-}
 
 
