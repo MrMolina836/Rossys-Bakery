@@ -64,12 +64,33 @@ a{
     align-items: center;
 }
 
+.nav__menu{
+    display: flex;
+}
+
+.nav__menu p{
+    color: #ffff;
+    margin-left: 25px;
+    display: none;
+}
+
 .nav__menu ul{
     margin-left: 2.5rem;
 }
 
 .nav__menu ul li a{
     color: #ffff;
+}
+
+.mobile-nav-toggle{
+    display: none;
+}
+
+.side__bar{
+    width: 150px;
+    height: 100vh;
+    color: black;
+    display: none;
 }
 
 .social__media-links{
@@ -81,6 +102,7 @@ a{
 
 .icons{
     font-size: 20px;
+    color: #fff;
 }
 
 .landing__page{
@@ -89,6 +111,7 @@ a{
 }
 
 .landing__page-container{
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -223,6 +246,7 @@ a{
 
 .delivery__container h2{
     margin-bottom: 2rem;
+    font-size: var(--h2-subtitle-size);
 }
 .delivery__container p{
     margin: 0 2rem;
@@ -294,12 +318,25 @@ a{
     background: pink;
 }
 
+.gallery__header{
+    height: 20vh;
+}
+
 .gallery__title{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20vh;
+    height: 100%;
+}
+
+.gallery__title a{
+    margin-right: 15px;
+}
+
+.gallery__prev{
+    color: black;
+    font-size: 20px;
 }
 
 .gallery__container{
@@ -361,4 +398,102 @@ a{
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+
+
+
+@media(max-width: 340px){
+    .mobile-nav-toggle{
+        display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 2rem;
+        background: transparent;
+        color: #ffff;
+        border: none;
+    }
+
+    .hamburger{
+        font-size: 1.9rem;
+        background-image: none;
+    }
+
+    .nav__menu{
+        height: 100%;
+    }
+
+    .side__bar{
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__menu p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: var(--title-font);
+        font-size: 25px;
+    }
+
+    .social__media-links{
+        display: none;
+    }
+    .nav__menu ul{
+        display: none;
+    }
+
+    .landing__page-title{
+        font-size: 3rem;
+    }
+    .landing__page-container p{
+        font-size: 18px;
+    }
+
+    .flex{
+        display: block;
+    }
+
+    .about__info{
+        margin: 0 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about__img{
+        width: 300px;
+        height: 300px;
+    }
+
+    #products{
+        height: 100vh;
+        padding: 5rem 30px;
+    }
+
+    .products__container{
+        margin: 0 1.5rem;
+    }
+
+    .slider__container{
+        height: auto;
+    }
+
+    #delivery{
+        padding: 5rem 15px ;
+    }
+
+    .contact__container{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+    .contact__info{
+        margin-bottom: 2rem;
+    }
+    iframe{
+        width: 280px;
+    }
+
+    .footer__container{
+        display: flex;
+    }
 }
