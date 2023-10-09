@@ -134,6 +134,22 @@ a{
     font-size: var(--h2-subtitle-size);
 }
 
+.about__btn{
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    margin-top: 2rem;
+    background: #800000;
+    color: #ffff;
+    font-family: var(--body-font);
+    cursor: pointer;
+}
+
+.about__btn:hover{
+    background: pink;
+    color: #800000;
+    transition: ease-in-out .3s;
+}
+
 .about__img{
     width: 400px;
     height: 300px;
