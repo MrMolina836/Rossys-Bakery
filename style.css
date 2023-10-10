@@ -488,6 +488,9 @@ input:checked ~.moblie__container{
     .toggle{
         display: block;
     }
+    .social__media-links{
+        display: none;
+    }
     .nav__container{
         height: 30vh;
         justify-content: center;
@@ -547,6 +550,9 @@ input:checked ~.moblie__container{
 @media(max-width: 340px){
     .toggle{
         display: block;
+    }
+    .social__media-links{
+        display: none;
     }
     .nav__container{
         height: 30vh;
