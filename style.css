@@ -44,6 +44,11 @@ a{
     text-decoration: none;
 }
 
+html{
+    transition: .5s ease-in;
+    scroll-behavior: smooth;
+}
+
 
 
 
@@ -472,7 +477,14 @@ input:checked ~.moblie__container{
     border-radius: 10px;
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1024px){
+    .moblie__container{
+        height: 0;
+        transform: none;
+    }
+    input:checked ~.moblie__container{
+        transform: none;
+    }
     .about__info-container{
         padding: 0 4rem;
     }
@@ -483,11 +495,21 @@ input:checked ~.moblie__container{
         margin: 0 9rem;
     }
 }
+@media screen and (min-width: 576px){
+    .moblie__container{
+        height: 0;
+        transform: none;
+    }
+    input:checked ~.moblie__container{
+        transform: none;
+    }
+}
 
 @media(max-width: 430px){
     .toggle{
         display: block;
     }
+    
     .social__media-links{
         display: none;
     }
