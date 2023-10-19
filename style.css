@@ -495,7 +495,7 @@ input:checked ~.moblie__container{
         margin: 0 9rem;
     }
 }
-@media screen and (min-width: 576px){
+@media screen and (min-width: 431px){
     .moblie__container{
         height: 0;
         transform: none;
